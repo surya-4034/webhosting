@@ -1,0 +1,49 @@
+body {
+  background: #f9f9f9;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.timer-container {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+#timer {
+  font-size: 3rem;
+  margin: 1.5rem 0;
+  letter-spacing: 2px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  background: #0078d7;
+  color: #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background .2s;
+}
+
+button:active, button:focus {
+  background: #005fa3;
+}
+
+button:disabled {
+  background: #bbb;
+  cursor: not-allowed;
+}
